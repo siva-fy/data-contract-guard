@@ -1,0 +1,45 @@
+{
+  "valid_dataset": {
+    "passed": true,
+    "rows": 2,
+    "issue_count": 0,
+    "issues": []
+  },
+  "broken_dataset": {
+    "passed": false,
+    "rows": 3,
+    "issue_count": 6,
+    "issues": [
+      {
+        "row": 3,
+        "column": "order_id",
+        "code": "duplicate"
+      },
+      {
+        "row": 3,
+        "column": "amount_minor",
+        "code": "min"
+      },
+      {
+        "row": 3,
+        "column": "currency",
+        "code": "enum"
+      },
+      {
+        "row": 3,
+        "column": "loaded_at",
+        "code": "stale"
+      },
+      {
+        "row": 4,
+        "column": "amount_minor",
+        "code": "type"
+      },
+      {
+        "row": 4,
+        "column": "loaded_at",
+        "code": "future_timestamp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "allow_extra_columns": false,
+  "columns": {
+    "order_id": {"type": "string", "unique": true, "pattern": "ORD-[0-9]+"},
+    "amount_minor": {"type": "integer", "min": 0},
+    "currency": {"type": "string", "enum": ["USD", "INR", "EUR"]},
+    "loaded_at": {"type": "timestamp", "max_age_hours": 24}
+  }
+}

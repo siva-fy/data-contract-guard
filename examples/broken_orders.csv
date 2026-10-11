@@ -1,0 +1,4 @@
+order_id,amount_minor,currency,loaded_at
+ORD-1,1200,USD,2026-01-02T10:00:00Z
+ORD-1,-20,XYZ,2025-12-01T11:00:00Z
+ORD-3,1.5,USD,2026-01-03T10:00:00Z
